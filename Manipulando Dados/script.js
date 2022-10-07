@@ -1,8 +1,6 @@
-// Manipulando Strings e Números
+// Manipulando Arrays
 
-// Contar quantos carateres tem um palavra e quantos dígitos tem um número.
+// Transformar uma cadeia de caracteres em elementos de um array
 
-let word = "paralelepipedo"
-console.log(word.length)
-let number = 12345
-console.log(String(number).length)
+let word = "manipulação"
+console.log(Array.from(word))
